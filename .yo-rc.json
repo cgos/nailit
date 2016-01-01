@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "baseName": "nailit",
+    "packageName": "com.nailit",
+    "packageFolder": "com/nailit",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "8521d906e7bc112ad15375f13dd950685ecafbd7",
+    "testFrameworks": []
+  }
+}

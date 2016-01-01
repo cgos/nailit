@@ -1,0 +1,10 @@
+nailit-dev-postgresql:
+  container_name: nailit-dev-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/nailit/dev-postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=nailit
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"
